@@ -42,4 +42,28 @@
     justify-content: space-around; 
     align-items: center;
 }
+.flowers-picture{
+    display: flex;
+    gap: 20px;
+    width: 20%;
+    text-align: center;  
+}
+.background-style{
+    background-image: url("../images/Rectangle\ 9.png");
+    height: 70vh;
+    background-repeat: no-repeat;
+    margin: 50px;
+    text-align: center;  
+    justify-content: space-around; 
+    align-items: center;
+    margin-top: 100px;
+    padding: 200px;
+}
+.buttn-primary{
+    padding: 10px;
+    margin: none;
+}
+
+
+    background-image: url("../images/Rectangle\ 9.png");
 
