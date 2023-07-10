@@ -63,6 +63,11 @@
     padding: 10px;
     margin: none;
 }
+.caption{
+    font-weight: bold;
+}
+
+
 
 
     background-image: url("../images/Rectangle\ 9.png");
