@@ -1,74 +1,127 @@
-.banner-container{
+.banner-container {
     display: flex;
     background-color: antiquewhite;
     background-position: center;
     background-size: cover;
-    text-align: center;  
-    justify-content: space-around; 
+    text-align: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 70px;
 }
-.banner-heading{
+
+.banner-heading {
     margin: 5px;
     background-color: bisque;
     padding: 10px;
+    text-align: start;
 
 }
-.heading-part{
-    text-align:start;
+
+.heading-part {
+    text-align: start;
     font-weight: bold;
 }
-.description{
+
+.description {
     width: 450px;
     text-align: start;
     gap: 10px;
 }
-.button-primary{
+
+.button-primary {
     padding: 10px 20px;
     border: none;
     border-radius: 7px;
 }
-.btn-primary{
-    background-color: brown ;
+
+.btn-primary {
+    background-color: brown;
     color: white;
-   
 }
-.img-1{
+
+.img-1 {
     padding-right: 250px;
 }
+
 /* mainpart */
-.main-part{
-    text-align: center;  
-    justify-content: space-around; 
+.main-part {
+    text-align: center;
+    justify-content: space-around;
     align-items: center;
 }
-.flowers-picture{
+
+.flowers-picture {
     display: flex;
     gap: 20px;
     width: 20%;
-    text-align: center;  
+    text-align: center;
 }
-.background-style{
+
+.background-style {
     background-image: url("../images/Rectangle\ 9.png");
-    height: 70vh;
     background-repeat: no-repeat;
-    margin: 50px;
-    text-align: center;  
-    justify-content: space-around; 
+    margin:50px 5px 10px 10px;
+    text-align: center;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 100px;
-    padding: 200px;
+    padding: 140px;
 }
-.buttn-primary{
+
+.buttn-primary {
     padding: 10px;
     margin: none;
+    border-radius:7px ;
 }
-.caption{
+
+.caption {
     font-weight: bold;
 }
+.footer-section{
+    background-color: black;
+    color:white ;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    margin-top: 40px;
+}
+.c-style{
+    color: brown;
+}
+.featured-section{
+    margin: 100px 0;
+}
+.featured-title{
+    text-align: center;
+    
+}
+.featured-images{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.f-img{
+    background-color: #A7216226;
+    padding: 20px;
+    border-radius: 50% 50% 0 0;
+    width: 400px;
+    text-align: center;
+    padding-bottom: 0;
+    height: 420px;
+    overflow: hidden;
 
-
-
-
-    background-image: url("../images/Rectangle\ 9.png");
-
+}
+.f-img-2{
+    background-color: #aad1cb;
+}
+.f-img-3{
+    background-color: rgb(166, 200, 230);
+}
+.f-img img{
+    width: 70%;
+}
+.featured-images p{
+    text-decoration: underline;
+}
